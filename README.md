@@ -1,2 +1,27 @@
-# E-Commerce_Order_Data_Pipeline
+## E-Commerce_Order_Data_Pipeline
 This project focuses on designing and implementing a scalable, efficient, and automated data pipeline for an e-commerce dataset using Azure Data Factory, Databricks, Delta Lake, and Tableau. The goal is to ingest, transform, and visualize data while ensuring data governance and scalability.
+
+# Architecture Overview
+
+Tech Stack:
+Azure Data Factory (ADF): Data ingestion from GitHub & ADLS
+Databricks Autoloader: Incremental data processing
+Unity Catalog: Schema governance, access control, and metadata management
+Delta Lake (Bronze → Silver → Gold): Structured and scalable data transformation
+Tableau: Data visualization for business insights
+
+# Data Flow
+
+1️⃣ Data Ingestion:
+ADF extracts raw data from GitHub and stores it in Azure Data Lake Storage (ADLS).
+Databricks Autoloader loads incremental data into Bronze Layer (ADLS - Bronze Container).
+
+2️⃣ Data Transformation (Bronze → Silver → Gold):
+Bronze Layer: Stores raw data in Delta format.
+Silver Layer: Cleans, formats, and applies business logic.
+Gold Layer: Aggregates and enriches data for reporting.
+Unity Catalog: Manages schema governance & access control.
+
+3️⃣ Data Visualization:
+Delta Tables registered under Unity Catalog.
+Tableau dashboards provide insights on sales trends, customer behavior, and inventory.
