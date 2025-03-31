@@ -12,16 +12,16 @@ Tableau: Data visualization for business insights
 
 ## Data Flow
 
-1️⃣ Data Ingestion:
+1. Data Ingestion:
 ADF extracts raw data from GitHub and stores it in Azure Data Lake Storage (ADLS).
 Databricks Autoloader loads incremental data into Bronze Layer (ADLS - Bronze Container).
 
-2️⃣ Data Transformation (Bronze → Silver → Gold):
+2. Data Transformation (Bronze → Silver → Gold):
 Bronze Layer: Stores the raw data.
 Silver Layer: Cleans, formats, and applies business logic.
 Gold Layer: Aggregates and enriches data for reporting.
 Unity Catalog: Manages schema governance & access control.
 
-3️⃣ Data Visualization:
+3. Data Visualization:
 Delta Tables registered under Unity Catalog.
 Tableau dashboards provide insights on sales trends, customer behavior, and inventory.
