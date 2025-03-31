@@ -6,12 +6,12 @@ This project focuses on designing and implementing a scalable, efficient, and au
 <img width="463" alt="image" src="https://github.com/user-attachments/assets/3768b118-c94a-4f0d-b32d-ff713c9271ae" />
 
 
-##Tech Stack:<br><br>
-<b>Azure Data Factory (ADF)</b>: Data ingestion from GitHub & ADLS<br>
-<b>Databricks Autoloader</b>: Incremental data processing<br>
-<b>Databricks</b>: Data transformations<br>
-<b>Unity Catalog</b>: Schema governance, access control, and metadata management<br>
-<b>Azure Data Lake Storage(Bronze → Silver → Gold)</b>: Centralized storage for raw, transformed, and processed data<br>
+## Tech Stack:<br><br>
+<b>Azure Data Factory (ADF)</b>: Data ingestion from GitHub & ADLS<br><br>
+<b>Databricks Autoloader</b>: Incremental data processing<br><br>
+<b>Databricks</b>: Data transformations<br><br>
+<b>Unity Catalog</b>: Schema governance, access control, and metadata management<br><br>
+<b>Azure Data Lake Storage(Bronze → Silver → Gold)</b>: Centralized storage for raw, transformed, and processed data<br><br>
 <b>Tableau</b>: Data visualization for business insights<br>
 
 ## Data Flow
