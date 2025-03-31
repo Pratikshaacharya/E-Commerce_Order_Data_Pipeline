@@ -6,8 +6,8 @@ This project focuses on designing and implementing a scalable, efficient, and au
 <img width="463" alt="image" src="https://github.com/user-attachments/assets/3768b118-c94a-4f0d-b32d-ff713c9271ae" />
 
 
-Tech Stack:\n
-Azure Data Factory (ADF): Data ingestion from GitHub & ADLS<br>
+Tech Stack:<br>
+<b>Azure Data Factory (ADF)</b>: Data ingestion from GitHub & ADLS<br>
 Databricks Autoloader: Incremental data processing<br>
 Databricks: Data transformations<br>
 Unity Catalog: Schema governance, access control, and metadata management<br>
