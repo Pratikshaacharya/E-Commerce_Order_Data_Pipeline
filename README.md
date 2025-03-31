@@ -6,7 +6,7 @@ This project focuses on designing and implementing a scalable, efficient, and au
 <img width="463" alt="image" src="https://github.com/user-attachments/assets/3768b118-c94a-4f0d-b32d-ff713c9271ae" />
 
 
-## Tech Stack:<br><br>
+## Tech Stack:<br>
 <b>Azure Data Factory (ADF)</b>: Data ingestion from GitHub & ADLS<br><br>
 <b>Databricks Autoloader</b>: Incremental data processing<br><br>
 <b>Databricks</b>: Data transformations<br><br>
