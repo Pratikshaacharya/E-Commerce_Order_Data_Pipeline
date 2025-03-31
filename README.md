@@ -8,11 +8,11 @@ This project focuses on designing and implementing a scalable, efficient, and au
 
 Tech Stack:<br>
 <b>Azure Data Factory (ADF)</b>: Data ingestion from GitHub & ADLS<br>
-Databricks Autoloader: Incremental data processing<br>
-Databricks: Data transformations<br>
-Unity Catalog: Schema governance, access control, and metadata management<br>
-Delta Lake (Bronze → Silver → Gold): Structured and scalable data transformation<br>
-Tableau: Data visualization for business insights<br>
+<b>Databricks Autoloader</b>: Incremental data processing<br>
+<b>Databricks</b>: Data transformations<br>
+<b>Unity Catalog</b>: Schema governance, access control, and metadata management<br>
+<b>Azure Data Lake Storage(Bronze → Silver → Gold)</b>: Centralized storage for raw, transformed, and processed data<br>
+<b>Tableau</b>: Data visualization for business insights<br>
 
 ## Data Flow
 
